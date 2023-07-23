@@ -25,3 +25,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* everything i added */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+  /* for the hyperlinks */
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.header, .footer, .content {
+  display: flex;
+}
+
+.header, .footer {
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #eeeeee;
+}

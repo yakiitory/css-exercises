@@ -78,15 +78,17 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.header {
+.container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 12px;
 }
 
-.text {
-  margin-bottom: 16px;
+.container > .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
 }

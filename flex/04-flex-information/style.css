@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* everything I added */
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.fruit-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.fruit-list > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
